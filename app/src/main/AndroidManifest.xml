@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.gopku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RumahSakit"></activity>
+        <activity android:name=".RSEkaHospital"></activity>
+        <activity android:name=".RSawalbross"></activity>
+        <activity android:name=".RSJiwaTampan"></activity>
+        <activity android:name=".RSAuliaHospital"></activity>
+        <activity android:name=".RSArifinAchmad"></activity>
+        <activity android:name=".Restoran"></activity>
+        <activity android:name=".Sushi"></activity>
+        <activity android:name=".ToKepiting"></activity>
+        <activity android:name=".ToKanso"></activity>
+        <activity android:name=".Manis"></activity>
+        <activity android:name=".GedungPemerintahan"></activity>
+        <activity android:name=".GPWalkot"></activity>
+        <activity android:name=".GPGuber"></activity>
+        <activity android:name=".GPBi"></activity>
+        <activity android:name=".GPDharma"></activity>
+        <activity android:name=".Bank"></activity>
+        <activity android:name=".BKbjb"></activity>
+        <activity android:name=".BKindo"></activity>
+        <activity android:name=".BKKepri"></activity>
+        <activity android:name=".BKmuamalat"></activity>
+        <activity android:name=".Campus"></activity>
+        <activity android:name=".Uabdur"></activity>
+        <activity android:name=".Ususka"></activity>
+        <activity android:name=".Uumri"></activity>
+        <activity android:name=".Uunri"></activity>
+        <activity android:name=".SportCenter"></activity>
+        <activity android:name=".SCjaya"></activity>
+        <activity android:name=".SCraya"></activity>
+        <activity android:name=".SCrem"></activity>
+        <activity android:name=".SCtrib"></activity>
+
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest>
